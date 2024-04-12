@@ -1,0 +1,102 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+/* style logo and left image */
+.left {
+  position: relative;
+}
+.left img {
+  display: block;
+  width: auto;
+  height: 100vh;
+}
+
+#trans-logo {
+  position: absolute;
+  top: 15rem;
+  background-color: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#TOP-logo {
+  height: 130px;
+  width: auto;
+}
+
+/*form and some stuff right side*/
+
+.right {
+  position: relative;
+  flex: 1;
+  padding: 50px;
+  background-color: #f9fafb;
+}
+
+.description {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+form {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 50px;
+}
+.container2 {
+  display: flex;
+  gap: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+label {
+  font-weight: 650;
+}
+input {
+  display: flex;
+  margin-top: 5px;
+  border-radius: 4px;
+  height: 20px;
+  border: 1px solid black;
+}
+input:focus {
+  box-shadow: 1px 2px 3px rgb(0, 0, 0, 0.4);
+  border: 1px solid blue;
+  outline: none;
+}
+
+/*submit button and stuff*/
+button {
+  background-color: #596d48;
+  border: none;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+#login {
+  text-decoration: none;
+  font-weight: 700;
+  color: #596d48;
+}

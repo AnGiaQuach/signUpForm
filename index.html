@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="leaf.jpg" id="left-img" />
+        <div id="trans-logo">
+          <img
+            id="TOP-logo"
+            src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          />
+        </div>
+      </div>
+      <div class="right">
+        <div class="description">
+          This not real online service,just dummy practice sign up page. Sign up
+          now!
+        </div>
+
+        <form>
+          <div class="container2">
+            <div class="form">
+              <div>
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+            </div>
+            <div class="form">
+              <div>
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="lastName" />
+              </div>
+              <div>
+                <label for="phoneNum">Phone number</label>
+                <input type="tel" id="phoneNum" name="phoneNum" required />
+              </div>
+              <div>
+                <label for="password2">Comfirm password</label>
+                <input
+                  type="password"
+                  id="password2"
+                  name="password2"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <button type="submit">Create account</button>
+          <p>
+            Already have an account?
+            <span><a href="#" id="login">Log in</a></span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
